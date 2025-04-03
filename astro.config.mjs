@@ -1,9 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-
+import starlightThemeRapide from 'starlight-theme-rapide'
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://lorikarikari.com',
 	integrations: [
 		starlight({
 			title: 'My Docs',
@@ -23,6 +24,7 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 			],
+			plugins: [starlightThemeRapide()],
 		}),
 	],
 });
