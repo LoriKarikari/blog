@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@astrojs/starlight':
-    specifier: ^0.32.0
-    version: 0.32.5(astro@5.5.6)
+    specifier: 0.32.0
+    version: 0.32.0(astro@5.5.6)
   astro:
-    specifier: ^5.5.6
+    specifier: 5.5.6
     version: 5.5.6(typescript@5.8.2)
   sharp:
     specifier: ^0.32.5
     version: 0.32.5
   starlight-theme-rapide:
     specifier: ^0.4.0
-    version: 0.4.0(@astrojs/starlight@0.32.5)
+    version: 0.4.0(@astrojs/starlight@0.32.0)
 
 packages:
 
@@ -95,8 +95,8 @@ packages:
       zod: 3.24.2
     dev: false
 
-  /@astrojs/starlight@0.32.5(astro@5.5.6):
-    resolution: {integrity: sha512-KYZsYbA5eEAsCO3XNc6DWDPml1JCD6GVusuB15fYq5dbxyB7RtC6kgwbtiEmr84maIjcQUmDtFJCz3sN4CdaSg==}
+  /@astrojs/starlight@0.32.0(astro@5.5.6):
+    resolution: {integrity: sha512-RJ+zPeTBlfgZJA3cWl3Nml9RLQhYUupnE0obL3iVxvVKhoCwUJnxmKicPp9EBxSML0TK8X4CUpnEwiC7OtfYwg==}
     peerDependencies:
       astro: ^5.1.5
     dependencies:
@@ -3391,13 +3391,13 @@ packages:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: false
 
-  /starlight-theme-rapide@0.4.0(@astrojs/starlight@0.32.5):
+  /starlight-theme-rapide@0.4.0(@astrojs/starlight@0.32.0):
     resolution: {integrity: sha512-go2JEA3p1CNo3zqhS1pDkhCXAJNG8O7sX7KdIebae+ogaAndFRKXFtXhmw+9O/CWM785Vje6mGIXlwLer0faLQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@astrojs/starlight': '>=0.32.0'
     dependencies:
-      '@astrojs/starlight': 0.32.5(astro@5.5.6)
+      '@astrojs/starlight': 0.32.0(astro@5.5.6)
     dev: false
 
   /stream-replace-string@2.0.0:
