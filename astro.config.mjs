@@ -25,6 +25,19 @@ export default defineConfig({
 				},
 			],
 			plugins: [starlightThemeRapide()],
+			i18n: {
+        defaultLocale: 'en',
+        locales: {
+          en: {
+            label: 'English',
+          }
+        },
+        routing: {
+          prefixDefaultLocale: true,
+          // Now this option is valid because prefixDefaultLocale is true
+          redirectToDefaultLocale: true
+        }
+      }
 		}),
 	],
 });
